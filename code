@@ -2,7 +2,7 @@ from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, Inlin
 from telegram import InlineQueryResultArticle, InputTextMessageContent
 import apiai, json
 
-updater = Updater(token='751989395:AAF49-n9xYzIS1iOabJxhaychERj4YtgtrE')
+updater = Updater(token='  н е  с к а ж у  ')
 dispatcher = updater.dispatcher
 
 
