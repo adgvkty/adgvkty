@@ -1,4 +1,6 @@
-#понадобиться скачать codecs, pyautowin и pyautogui
+# понадобиться скачать codecs, pyautowin и pyautogui
+
+# Также естественно надо что бы скрипт и txtшки были в одной папке
 
 import codecs 
 import pyautogui
