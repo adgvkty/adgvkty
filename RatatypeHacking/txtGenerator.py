@@ -10,7 +10,7 @@ for i in range(n):
     response = response.replace('<div class="mainTxt">', '')
     response = response.replace('</div>', '')
 
-    title = re.findall(r'\w+', response)[0]
+    title = re.findall(r'\w+ \w+', response)[0]
 
     file = open(f'{title}.txt', 'w')
     file.write(response)
