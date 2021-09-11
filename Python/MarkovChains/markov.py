@@ -46,4 +46,16 @@ class MarkovChain:
             text += ' ' + word
 
         return text
+    
+mc = MarkovChain()
+    
+def main():
+    f = open("D:\GitHub/adgvkty\Python\MarkovChains/text.txt")
+    text = f.read()
+    mc.add_text(text)
+        
+    print(mc.generate_text(30))
+        
+    
+main()
         
