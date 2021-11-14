@@ -1,5 +1,7 @@
 package main
 
-func main() {
+import adgvkty "adgvkty/Go"
 
+func main() {
+	adgvkty.CalculateHighMath()
 }
